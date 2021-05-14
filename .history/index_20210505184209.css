@@ -1,0 +1,16 @@
+* {
+    /* background-color: red; */
+    margin: 0px;
+}
+
+/* HEADER STYLING STARTS HERE */
+#header {
+    background-color: rgba(19, 17, 17, 0.7);
+    justify-content: center;
+}
+
+#nav {
+    
+}
+
+/* HEADER STYLING ENDS HERE */

@@ -1,0 +1,15 @@
+* {
+    /* background-color: red; */
+    margin: 0px;
+}
+
+/* HEADER STYLING STARTS HERE */
+#header {
+    background-color:red;
+}
+
+#nav {
+    background-color: blue;
+}
+
+/* HEADER STYLING ENDS HERE */
