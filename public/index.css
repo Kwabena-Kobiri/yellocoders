@@ -1,12 +1,18 @@
 * {
     /* background-color: red; */
     margin: 0px;
+    scroll-behavior: smooth;
 }
 
 body {
     display: flex;           /*Used flexbox on the whole page */
     flex-direction: column;
+    /* overflow-y: hidden; */
 } 
+
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 /* HEADER STYLING STARTS HERE */
 #header {
@@ -37,6 +43,17 @@ body {
     font-weight: 550;
 }
 
+#nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#nav > ul > li > a:hover {
+    color: orange;
+    cursor: pointer;
+}
+
 /* HEADER STYLING ENDS HERE */
 
 
@@ -48,7 +65,7 @@ body {
     color: rgba(32, 30, 122, 0.767);
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    /* background-color: red; */
+    font-family: 'Dancing Script', cursive;
 }
 
 .Details {
@@ -64,7 +81,7 @@ body {
 }
 
 .Details > h3 {
-    margin-left: 10px;
+    margin-left: 150px;
     font-size: 100px;
     padding: 10px;
     justify-content: center;
